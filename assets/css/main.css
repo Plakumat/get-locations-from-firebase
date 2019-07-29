@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+input,button {
+  height: 30px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+input {
+  padding: 0 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#object {
+  width: 48%;
+  margin: 0;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #eee;
+  color: #666;
+  border-radius: 5px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+#map {
+  width: 48%;
+  height: 480px;
+}
+
+.map-custom-window {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 200px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.map-custom-window__img {
+  width: 200px;
+  margin-top: 15px;
+}
+
+.window__label {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.gm-style-iw {
+  display: flex !important;
+  clear: both !important;
+}
+
+/*# sourceMappingURL=main.css.map */
