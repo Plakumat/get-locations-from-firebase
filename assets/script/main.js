@@ -10,10 +10,10 @@ function initialize() {
   }); //Set Firebase config
 
   var config = {
-    apiKey: "AIzaSyDlK1gkICjorhoELnFZnd6jsSp6iNMDHdc",
-    authDomain: "engelnerede-web.firebaseapp.com",
-    databaseURL: "https://engelnerede-web.firebaseio.com/",
-    storageBucket: "engelnerede-web.appspot.com"
+    apiKey: YOUR_API_KEY,
+    authDomain: YOUR_AUTH_DOMAIN,
+    databaseURL: YOUR_DATABASE_URL,
+    storageBucket: YOUR_STORAGEBUCKET_URL
   }; //Bind config for Firebase initialize
 
   firebase.initializeApp(config); //Set dom element for render
