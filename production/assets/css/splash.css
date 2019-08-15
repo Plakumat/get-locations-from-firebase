@@ -1,0 +1,12 @@
+.home {
+  margin: 20px;
+  background-color: peru;
+}
+
+@media only screen and (min-width: 768px) {
+  .home {
+    background-color: thistle;
+  }
+}
+
+/*# sourceMappingURL=splash.css.map */

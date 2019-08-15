@@ -1,0 +1,7 @@
+{
+  "polyfills": [
+    "Array.prototype.filter",
+    "Array.prototype.forEach",
+    "Element.prototype.append"
+  ]
+}

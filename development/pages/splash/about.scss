@@ -1,0 +1,9 @@
+@import '../../assets/scss/include';
+
+.home {
+	margin: 20px;
+	background-color: peru;
+	@include mq(tablet) {
+		background-color: thistle;
+	}
+}
